@@ -72,7 +72,7 @@ main .main-input {
 main .main-input-container {
     width: 525px;
     border-radius: 100px;
-    border: 1px solid #9e9e9e;
+    border: 1px solid #9c9c9c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,4 +83,28 @@ main .main-input input {
     height: 40px;
     border: none;
     outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #2d2b2b;
+    border-color: #9e9e9e;
+}
+
+main .main-input .search-icon {
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
 }
